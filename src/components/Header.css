@@ -33,3 +33,53 @@ header.black {
   height: 100%;
   border-radius: 3px;
 }
+
+@media (max-width: 1024px) {
+  .header--user {
+    height: 90px;
+  }
+  
+  .header--logo {
+    height: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header--user {
+    height: 90px;
+  }
+  
+  .header--logo {
+    height: 130px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header--user {
+    height: 90px;
+  }
+  
+  .header--logo {
+    height: 130px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header--user {
+    height: 80px;
+  }
+  
+  .header--logo {
+    height: 110px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header--user {
+    height: 60px;
+  }
+  
+  .header--logo {
+    height: 100px;
+  }
+}

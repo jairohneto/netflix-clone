@@ -61,9 +61,16 @@
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 425px) {
   .movieRow--left,
   .movieRow--right {
     opacity: 1;
+  }
+  
+  .movieRow--item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
   }
 }
